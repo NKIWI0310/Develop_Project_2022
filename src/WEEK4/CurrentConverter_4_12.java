@@ -20,7 +20,7 @@ class StaticMember {
         Scanner scanner = new Scanner(System.in);
         System.out.print("환율(1달러)>> ");
         double rate = scanner.nextDouble();
-        CurrentConverter_4_12.setRate(rate); // 미국 달러 환율 설정
+        CurrentConverter_4_12.setRate(rate);
         System.out.println("백만원은 $" + CurrentConverter_4_12.toDollar(1000000) +"입니다.");
         System.out.println("$100는 " + CurrentConverter_4_12.toKWR(100) + "원입니다.");
 
